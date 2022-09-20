@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+#head1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 60px;
+    color: white;
+    text-shadow: 4px 4px 10px black;
+}
+.main{
+    background-image: url(https://i.pinimg.com/736x/f0/c4/a6/f0c4a69c95ba23a866897fa5cf9bc319.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+p{
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+}
+.SignUp{
+    margin: 0px 150px;
+}
+.Login-cont{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#sign-up,#login{
+    display: none;
+}
